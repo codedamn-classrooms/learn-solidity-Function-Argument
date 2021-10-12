@@ -1,5 +1,5 @@
-const IfElse = artifacts.require("IfElse");
+const FunctionArgument = artifacts.require("FunctionArgument");
 
 module.exports = function (deployer) {
-  deployer.deploy(IfElse);
+  deployer.deploy(FunctionArgument);
 };
